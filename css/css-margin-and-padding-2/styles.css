@@ -37,3 +37,7 @@ button {
   display: block;
   margin: 0 auto;
 }
+
+/* My Mistake
+I didn't make the code dry (margin: 8px) is supposed to be only the bottom and also i am supposed to remove the margin top of the title section to remove the excess gap
+*/
