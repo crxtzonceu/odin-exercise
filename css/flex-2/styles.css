@@ -1,0 +1,49 @@
+/* Note below the code */
+
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.header div  {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+  /* margin-right: 10px; gap is better i think*/
+}
+
+/* This exercise is hard for me and im not confident on my answer so ill explained first what i did before i check the solution and correct this if i have such mistakes */
+
+/* 
+- I made the header display flex and justify content to space between
+- select the child div of the header to center vertically the ul's(align-items: center;)
+- i set the ul margin and padding to 0
+-  i set it to flex and put a gap so the items have a gap between them instead of putting margin-right
+*/
