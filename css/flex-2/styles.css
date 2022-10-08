@@ -5,13 +5,10 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 8px;
 }
 
-.header div  {
-  display: flex;
-  align-items: center;
-}
 
 .logo {
   font-size: 48px;
@@ -41,9 +38,14 @@ a {
 
 /* This exercise is hard for me and im not confident on my answer so ill explained first what i did before i check the solution and correct this if i have such mistakes */
 
-/* 
+/* The code that i made isnt dry
 - I made the header display flex and justify content to space between
 - select the child div of the header to center vertically the ul's(align-items: center;)
 - i set the ul margin and padding to 0
 -  i set it to flex and put a gap so the items have a gap between them instead of putting margin-right
 */
+
+
+/* After checking the solution
+i just learned from my mistake that 
+i can use the align items on the parent container and not selecting its child that have a child too. But i close to perfect tho. Its just that it isnt dry and can be more shorter and better */
