@@ -1,5 +1,3 @@
-/* Im wrong on some part but ill try this exercise again tomorrow */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
@@ -22,17 +20,20 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 15px;
   display: flex;
-  gap: 20px;
+  padding: 8px;
+  gap: 14px;
 }
-.center div {
-  margin-bottom: 8px;
-}
-
 .header {
-  font-weight: 900;
-  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.text {
+  margin-bottom: 17px;
 }
 
 .icon {
@@ -60,7 +61,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
 }
 
 button {
